@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-\begin{bmatrix}[rrr]
-    ${1:1}  &  ${2:0}  ${3:0}  \\
-    ${4:0}  &  ${5:1}  ${6:0}  \\
-    ${7:0}  &  ${8:1}  ${9:1}
-\end{bmatrix} \rightarrow
+\left[ \begin{array}{rrr}
+    ${1:1}  &  ${2:0}  &  ${3:0}  \\\\
+    ${4:0}  &  ${5:1}  &  ${6:0}  \\\\
+    ${7:0}  &  ${8:1}  &  ${9:1}
+\end{array} \right]
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bmatrix 3x3</tabTrigger>

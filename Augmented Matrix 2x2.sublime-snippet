@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-\begin{bmatrix}[rr|r]
-    ${1:1}  &  ${2:0}  &  ${3:0}  \\
+\left[ \begin{array}{rr|r}
+    ${1:1}  &  ${2:0}  &  ${3:0}  \\\\
     ${4:0}  &  ${5:1}  &  ${6:0}  
-\end{bmatrix} \rightarrow
+\end{array} \right]
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>aug matrix 2x2</tabTrigger>
