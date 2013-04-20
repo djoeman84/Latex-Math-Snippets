@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\begin{equation*}
+	$0
+\end{equation*}]]></content>
+    <tabTrigger>eqstar</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Equation (unnumbered)</description>
+</snippet>
