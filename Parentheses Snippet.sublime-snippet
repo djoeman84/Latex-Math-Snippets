@@ -7,5 +7,5 @@
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.tex</scope>
 	<!-- Optional: Description to show in the menu -->
-    <description>Parenthesis around selection</description>
+    <description>Parentheses around selection</description>
 </snippet>
