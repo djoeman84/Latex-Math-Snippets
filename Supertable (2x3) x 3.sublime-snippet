@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+\begin{tabular}{${1:|l|ccc|ccc|}}
+	\hline
+	~ & \multicolumn{3}{|c|}{${2:superHead1}} & \multicolumn{3}{c|}{${3:superHead2}} \\\\
+    ~ & ${4:colHead1.1} & ${5:colHead1.2} & ${6:colHead1.3} & ${7:colHead2.1} & ${8:colHead2.2} & ${9:colHead2.3} \\\\ \hline
+    ${10:rowHead1}  &  ${11:val11}  &  ${12:val12} &  ${13:val13} &  ${14:val14} &  ${15:val15} &  ${16:val16} \\\\
+    ${17:rowHead2}  &  ${18:val21}  &  ${19:val22} &  ${20:val23} &  ${21:val24} &  ${22:val25} &  ${23:val26} \\\\ \hline
+\end{tabular}$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>supertable(2x3)x3</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex</scope>
+	<!-- Optional: Description to show in the menu -->
+    <description>Latex Table with 2 superheadings</description>
+</snippet>
