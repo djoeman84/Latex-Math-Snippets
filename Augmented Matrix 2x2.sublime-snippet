@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\begin{bmatrix}[rr|r]
+    ${1:1}  &  ${2:0}  &  ${3:0}  \\
+    ${4:0}  &  ${5:1}  &  ${6:0}  
+\end{bmatrix} \rightarrow
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>aug matrix 2x2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex</scope>
+	<!-- Optional: Description to show in the menu -->
+    <description>Augmented Matrix (2x2)</description>
+</snippet>
