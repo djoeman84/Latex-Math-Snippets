@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+\begin{table}
+${11:%}\caption{${12:TABLE CAPTION}}
+${13:%}\label{tab:${14:Table1}}
+\begin{tabular}[${1:|c|cc|}]
+	\hline
+    ${2:~}  &  ${3:colHead1}  &  ${4:colHead2} \\ \hline
+    ${5:rowHead1}  &  ${6:val11}  &  ${7:val12} \\
+    ${8:rowHead2}  &  ${9:val21}  &  ${10:val22} \\ \hline
+\end{tabular}$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>table3x3</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex</scope>
+	<!-- Optional: Description to show in the menu -->
+    <description>Full Latex Table (3x3)</description>
+</snippet>
