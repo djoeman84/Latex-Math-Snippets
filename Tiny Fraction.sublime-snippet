@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\tfrac{${1:$SELECTION}}{$2}$0]]></content>
+    <tabTrigger>tfrac</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>tfrac{}{}</description>
+</snippet>
