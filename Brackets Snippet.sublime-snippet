@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\left[ ${1:$SELECTION} \right]$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bracs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex</scope>
+	<!-- Optional: Description to show in the menu -->
+    <description>Brackets around selection</description>
+</snippet>
