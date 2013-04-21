@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-\left[ \begin{array}{rr}
+\\left[ \\begin{array}{rr}
     ${1:1}  &  ${2:0}  \\\\
     ${3:0}  &  ${4:1}  
-\end{array} \right]
+\\end{array} \\right]
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bmatrix 2x2</tabTrigger>
